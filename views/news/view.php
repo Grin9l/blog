@@ -11,15 +11,14 @@
 <div id="wrapper">
     <div id="header">
         <div id="logo">
-            <h1><a href="/news">Новости</a></h1>
-            <h2><a href="http://www.freecsstemplates.org/">Template By Free CSS Templates</a></h2>
+            <h1><a href="/news"></a></h1>
         </div>
         <!-- end div#logo -->
 </div>
     <!-- end div#header -->
 <div id="menu">
         <ul>
-            <li class="active"><a href="/news">News</a></li>
+            <li class="active"><a href="/">News</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
@@ -41,7 +40,7 @@
                             <p><img src="http://blog/.<?php echo $newsItem['preview'];?>"></p>
                         </div>
                         <div class="meta">
-                            <p class="links"><a href="/news" class="comments">Ко всем новостям..</a></p>
+                            <p class="links"><a href="/" class="comments">Ко всем новостям..</a></p>
                         </div>
                     </div>
 
@@ -106,7 +105,7 @@
 </div>
 <!-- end div#page -->
 <div id="footer">
-    <p>Copyright &copy; 2007 Culinary. All Rights Reserved. Designed by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.&nbsp;&nbsp;<a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    <p>Copyright &copy;</p>
 </div>
 <!-- end div#footer -->
 </div>
